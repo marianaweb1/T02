@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(20, 68, 20);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    padding-top: 1px;
+    height: 50px;
+}
+
+/*.ambientes {
+    display: flex;
+        height: 300px;
+        width: 675px;
+        flex-direction: column;
+        flex-wrap: wrap;   
+        justify-content: center;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;*/
+
+.ambiente {
+    padding: 1rem;
+    margin: 1rem;
+    width: 200px;
+    text-align: center;
+} 
+
+.ambiente.ocupado {
+    display: flex;
+    height: 175px;
+    width: 96%;
+
+    flex-direction: column;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.ambiente.ocupado div{
+    background-color: rgb(219, 68, 68);
+    margin: 10px;
+    height: 140px;
+    width: 260px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.ambiente.livre {
+    display: flex;
+    height: 175px;
+    width: 96%;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.ambiente.livre div{
+    background-color: rgb(114, 255, 123);
+    margin: 10px;
+    height: 140px;
+    width: 260px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ambiente.manutencao {
+    display: flex;
+    height: 175px;
+    width: 96%;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.ambiente.manutencao div{
+    background-color: rgb(224, 234, 83);
+    margin: 10px;
+    height: 140px;
+    width: 260px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding-top: 1px;
+    height: 40px;
+    background-color: rgb(20, 68, 20);
+    color: white;
+    text-align: center;
+}
